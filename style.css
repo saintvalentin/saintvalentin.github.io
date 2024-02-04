@@ -92,3 +92,52 @@
     align-items: center;
     justify-content: center;
 }
+
+@media all and (max-width: 800px) {
+  @keyframes rocket {
+   100% {
+     opacity: 100%;
+     transform: translateY(-15%);
+   }
+ }
+
+ .box {
+  border: solid 7px white;
+  height: 200px;
+  width: 300px;
+  border-radius: 10px;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+
+.oui {
+  border: solid 5px rgb(98, 206, 98);
+  height: 35px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: rgb(98, 206, 98);
+}
+
+.non {
+  border: solid 5px rgb(235, 111, 111);
+  background-color: rgb(235, 111, 111);
+  height: 35px;
+  width: 100px;
+  border-radius: 10px;
+}
+p {
+  font-family: 'Pacifico', cursive;
+  color: white;
+  font-size: 100%;
+}
+a {
+  font-family: 'Pacifico', cursive;
+  color: white;
+  font-size: 100%;
+}
+ }
